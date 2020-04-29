@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="31mm"
+   height="31mm"
+   viewBox="0 0 31 31"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Qoogle Favicon.svg"
+   inkscape:export-filename="/home/qmarlats/Documents/TOPProjects/QoogleAssets/Qoogle Favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="429.83465"
+     inkscape:cy="2.216739"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g851"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="911"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.153047,-66.259734)">
+    <g
+       id="g851"
+       transform="translate(1.2601253,-0.00247332)">
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.52777767;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m 45.392921,71.762207 c 5.54,0 10,4.46 10,10 0,5.54 -4.46,10 -10,10 -5.54,0 -10,-4.46 -10,-10 0,-5.54 4.46,-10 10,-10 z"
+         id="rect843" />
+      <g
+         aria-label="O"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         id="text817-3">
+        <path
+           d="m 35.047714,92.918804 q -3.894667,-4.34093 -3.894667,-11.156597 0,-6.815666 3.894667,-11.156596 3.935236,-4.340931 10.304638,-4.340931 6.409972,0 10.345208,4.340931 3.935236,4.30036 3.935236,11.359444 0,6.572249 -3.894666,10.953749 -3.854097,4.34093 -10.345208,4.34093 -6.450542,0 -10.345208,-4.34093 z M 45.392922,71.457569 q -3.69182,0 -5.923139,2.839861 -2.231319,2.799291 -2.231319,7.464777 0,4.665486 2.231319,7.505347 2.231319,2.799292 5.923139,2.799292 3.65125,0 5.882569,-2.799292 2.271889,-2.799291 2.271889,-7.343069 0,-4.787194 -2.23132,-7.627055 -2.19075,-2.839861 -5.923138,-2.839861 z"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:40.56944275px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-0.52916676px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+           id="path823" />
+      </g>
+      <g
+         aria-label="Q"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         id="text817">
+        <path
+           d="m 45.392921,70.543877 q 4.487333,0 7.196666,3.048 2.709333,3.048 2.709333,7.676444 0,2.088444 -0.620888,4.064 -0.592667,1.947333 -1.636889,3.217333 l 2.257777,2.144889 -2.144888,2.286 -2.427111,-2.286 q -2.342445,1.411111 -5.334,1.411111 -4.459111,0 -7.196667,-3.019778 -2.709333,-3.048 -2.709333,-7.761111 0,-4.71311 2.709333,-7.732888 2.737556,-3.048 7.196667,-3.048 z m 2.427111,13.066888 2.314222,2.201334 q 0.931333,-1.862667 0.931333,-4.459111 0,-3.273778 -1.552222,-5.221111 -1.524,-1.975556 -4.120444,-1.975556 -2.568222,0 -4.120445,1.975556 -1.552222,1.947333 -1.552222,5.192888 0,3.245556 1.552222,5.221111 1.552223,1.947334 4.092223,1.947334 1.467555,0 2.483555,-0.536222 l -2.173111,-2.060223 z"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:28.22222137px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0545de;fill-opacity:1"
+           id="path826" />
+      </g>
+    </g>
+  </g>
+</svg>
