@@ -1,0 +1,275 @@
+/* Global Styles */
+
+body {
+    /* Layout */
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+
+    /* Box Model */
+    width: 100vw;
+    height: 100vh;
+
+    /* Typography */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+/* Header */
+
+header {
+    /* Layout */
+    grid-row: 1/2;
+    display: flex;
+    justify-self: end;
+    align-self: flex-start;
+    align-items: center;
+
+    /* Box Model */
+    height: 60px;
+    padding-right: 20px;
+}
+
+header a.text {
+    /* Box Model */
+    margin: 0 8px;
+
+    /* Typography */
+    color: rgba(0,0,0,0.85);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+header a.text:hover {
+    /* Typography */
+    text-decoration: underline;
+}
+
+header a#menu {
+    /* Layout */
+    display: flex;
+    align-items: center;
+
+    /* Box Model */
+    margin: 0 20px;
+
+    /* Display */
+    opacity: 0.65;
+}
+
+header a#menu:hover {
+    /* Display */
+    opacity: 0.85;
+}
+
+header a#menu img {
+    /* Box Model */
+    width: 15px;
+}
+
+header a#user {
+    /* Box Model */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    /* Background */
+    background: #BF1A2F;
+
+    /* Typography */
+    color: #fff;
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Search Form */
+
+#search-form {
+    /* Layout */
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: flex-start;
+}
+
+#search-form img#logo {
+    /* Layout */
+    display: block;
+
+    /* Box Model */
+    width: 50vw;
+    max-width: 300px;
+    margin: 30px auto;
+}
+
+#search-form form #input-container {
+    /* Layout */
+    display: flex;
+    align-items: center;
+
+    /* Box Model */
+    width: 85vw;
+    max-width: 580px;
+    height: 44px;
+    margin: 30px auto;
+}
+
+#search-form form #input-container label {
+    /* Layout */
+    display: flex;
+    align-items: center;
+}
+
+#search-form form #input-container label img {
+    /* Layout */
+    position: absolute;
+
+    /* Box Model */
+    width: 20px;
+    margin-left: 15px;
+}
+
+#search-form form #input-container input {
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 0 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 44px;
+
+    /* Typography */
+    font-size: 16px;
+}
+
+#search-form form #input-container input:hover, #search-form form #input-container input:focus {
+    /* Box Model */
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-form form #input-container input:focus {
+    /* Box Model */
+    outline: none;
+}
+
+#search-form form #submit-buttons {
+    /* Layout */
+    display: flex;
+    justify-content: center;
+
+    /* Box Model */
+    margin-bottom: 30px;
+}
+
+#search-form form #submit-buttons button {
+    /* Box Model */
+    height: 36px;
+    margin: auto 5px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+
+    /* Background */
+    background: #f5f5f5;
+    background: linear-gradient(#f5f5f5, #f1f1f1);
+
+    /* Typography */
+    color: #5F6368;  
+}
+
+#search-form form #submit-buttons button:hover {
+    /* Box Model */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+
+    /* Background */
+    background: #f8f8f8;
+    background: linear-gradient(#f8f8f8, #f1f1f1);
+
+    /* Typography */
+    color: #222;
+}
+
+#search-form form #submit-buttons button:focus {
+    /* Box Model */
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+/* Footer */
+
+footer {
+    /* Layout */
+    grid-row: 3/4;
+    display: grid;
+    align-self: flex-end;
+    align-items: center;
+
+    /* Box Model */
+    height: 40px;
+    padding: 0 20px;
+    border-top: 1px solid #e4e4e4;
+
+    /* Background */
+    background: #f2f2f2;
+}
+
+footer #left {
+    /* Layout */
+    grid-column: 1/2;
+    justify-self: start;
+}
+
+footer #right {
+    /* Layout */
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+footer a {
+    /* Box Model */
+    margin: auto 10px;
+
+    /* Typography */
+    color: #5f6368;
+    text-decoration: none;
+}
+
+footer a:hover {
+    /* Typography */
+    text-decoration: underline;
+}
+
+
+/* Small Medias */
+
+@media (max-width: 900px) {
+    footer {
+        /* Layout */
+        row-gap: 15px;
+        justify-items: center;
+
+        /* Box Model */
+        height: auto;
+        padding: 10px;
+
+        /* Typography */
+        text-align: center;
+    }
+
+    footer #left {
+        grid-column: 1/1;
+        justify-self: center;
+    }
+
+    footer #right {
+        grid-column: 1/1;
+        justify-self: center;
+    }
+}
