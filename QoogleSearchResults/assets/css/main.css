@@ -238,7 +238,7 @@ main #knowledge-graph-container #knowledge-graph .images-group {
 
 main #knowledge-graph-container #knowledge-graph .images-group img {
     /* Box Model */
-    max-width: 100%;
+    max-width: 50%;
 }
 
 main #knowledge-graph-container #knowledge-graph .title {
