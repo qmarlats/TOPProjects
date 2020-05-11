@@ -1,0 +1,214 @@
+/* Global Properties */
+
+body {
+    /* Layout */
+    display: grid;
+    row-gap: 50px;
+    justify-content: center;
+    justify-items: center;
+
+    /* Background */
+    background-color: #231F20;
+
+    /* Typography */
+    font-family: 'Roboto', sans-serif;
+    color: #EFE6DD;
+}
+
+h1, h2 {
+    /* Typography */
+    font-family: 'Roboto Slab', serif;
+    color: #BB4430;
+}
+
+h1 {
+    /* Typography */
+    font-size: 40px;
+}
+
+h2 {
+    /* Typography */
+    font-size: 25px;
+}
+
+
+/* Icons */
+
+.wait {
+    /* Typography */
+    font-size: 100px;
+    text-align: center;
+    line-height: 154px;  /* Same height as icons */
+    color: #EFE6DD;
+}
+
+.wait::before {
+    content: "−";
+}
+
+.error {
+    /* Typography */
+    font-size: 100px;
+    text-align: center;
+    color: #EFE6DD;
+}
+
+.error::before {
+    content: "E";
+}
+
+.rock::before {
+    content: url('../images/rock.svg');
+}
+
+.paper::before {
+    content: url('../images/paper.svg');
+}
+
+.scissors::before {
+    content: url('../images/scissors.svg');
+}
+
+.winner::before {
+    content: url('../images/winner.svg');
+}
+
+.loser::before {
+    content: url('../images/loser.svg');
+}
+
+
+/* Main Title */
+
+#main-title {
+    /* Layout */
+    grid-row: 1/2;
+}
+
+
+/* Scores */
+
+#scores {
+    /* Layout */
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr) 2fr;
+    justify-items: center;
+    align-items: center;
+
+    /* Box Model */
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    border: 5px solid #BB4430;
+    border-radius: 20px;
+}
+
+#scores h2 {
+    /* Layout */
+    grid-column: 1/6;
+
+    /* Box Model */
+    margin-top: -22px;  /* Pull title over border */
+    margin-bottom: 0;
+    padding: 0 10px;
+
+    /* Background */
+    background-color: #231F20;
+}
+
+#scores h3, #scores #scores-separator {
+    /* Typography */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#scores p {
+    /* Typography */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#scores #scores-separator::after {
+    content: "−";
+}
+
+
+/* Winner */
+
+#winner-name {
+    /* Typography */
+    font-size: 24px;
+}
+
+
+#restart-game {
+    /* Box Model */
+    padding: 5px;
+    border-radius: 5px;
+
+    /* Background */
+    background-color: #344966;
+    cursor: pointer;
+}
+
+
+/* Duel */
+
+#duel {
+    /* Layout */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+#duel span {
+    width: 150px;
+}
+
+
+/* Actions */
+
+#actions {
+    /* Layout */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-items: center;
+}
+
+#actions button {
+    /* Layout */
+    display: inline-block;
+
+    /* Box Model */
+    width: 125px;
+    height: auto;
+    padding: 20px;
+    border: 5px solid #344966;
+    border-radius: 20px;
+
+    /* Background */
+    background-color: #344966;
+
+    /* Typography */
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #EFE6DD;
+
+    /* Animation */
+    transition: border-color 0.05s linear;
+}
+
+#actions button:hover {
+    /* Box Model */
+    border: 5px solid #EFE6DD;
+
+    /* Background */
+    cursor: pointer;
+
+    /* Animation */
+    transition: border-color 0.25s linear;
+}

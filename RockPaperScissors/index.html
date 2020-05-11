@@ -5,11 +5,36 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
         <title>Rock, Paper, Scissors</title>
     </head>
 
     <body>
-        <h1>Rock, Paper, Scissors</h1>
+        <h1 id="main-title">Rock, Paper, Scissors</h1>
+
+        <div id="scores">
+            <h2>Scores</h2>
+            <h3 id="player-1-name">Player 1</h3>
+            <p id="player-1-score">0</p>
+            <span id="scores-separator"></span>
+            <p id="player-2-score">0</p>
+            <h3 id="player-2-name">Player 2</h3>
+        </div>
+
+        <div id="winner-name"></div>
+
+        <div id="duel">
+            <span class="wait" id="player-1-choice"></span>
+            <span class="wait" id="player-2-choice"></span>
+        </div>
+
+        <div id="actions">
+            <button class="rock" name="action" value="rock">Rock</button>
+            <button class="paper" name="action" value="paper">Paper</button>
+            <button class="scissors" name="action" value="scissors">Scissors</button>
+        </div>
 
         <script src="assets/js/game.js"></script>
     </body>
