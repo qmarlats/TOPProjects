@@ -34,7 +34,7 @@ h2 {
 
 /* Icons */
 
-.wait {
+.pending {
     /* Typography */
     font-size: 100px;
     text-align: center;
@@ -42,7 +42,7 @@ h2 {
     color: #EFE6DD;
 }
 
-.wait::before {
+.pending::before {
     content: "−";
 }
 
