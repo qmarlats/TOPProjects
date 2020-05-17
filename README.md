@@ -17,3 +17,5 @@ Projects from The Odin Project curriculum:
 * [CaesarCipher](https://github.com/qmarlats/TOPProjects/tree/master/CaesarCipher): a simple Caesar cipher method written in Ruby
 * [Substrings](https://github.com/qmarlats/TOPProjects/tree/master/Substrings): a simple Ruby method which counts occurences of dictionary entries in a phrase
 * [StockPicker](https://github.com/qmarlats/TOPProjects/tree/master/StockPicker): a simple Ruby method which maximizes the profit given a chronologically ordered array of stock prices (the method returns the best day to buy and the best day to sell)
+* [BubbleSort](https://github.com/qmarlats/TOPProjects/tree/master/BubbleSort): a simple bubble sort algorithm implemented in Ruby
+
