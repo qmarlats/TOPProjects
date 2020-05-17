@@ -16,3 +16,4 @@ Projects from The Odin Project curriculum:
     * Ability to play human v. human or computer v. computer by changing players' types in console (see point above); to start the game in a computer v. computer configuration, press any button
 * [CaesarCipher](https://github.com/qmarlats/TOPProjects/tree/master/CaesarCipher): a simple Caesar cipher method written in Ruby
 * [Substrings](https://github.com/qmarlats/TOPProjects/tree/master/Substrings): a simple Ruby method which counts occurences of dictionary entries in a phrase
+* [StockPicker](https://github.com/qmarlats/TOPProjects/tree/master/StockPicker): a simple Ruby method which maximizes the profit given a chronologically ordered array of stock prices (the method returns the best day to buy and the best day to sell)
